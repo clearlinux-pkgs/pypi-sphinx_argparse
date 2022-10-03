@@ -1,5 +1,5 @@
 PKG_NAME := pypi-sphinx_argparse
-URL = https://files.pythonhosted.org/packages/59/a1/69993f45da700fc842f6714f2062be3d5e2501be8a6cf20b9a133b72a295/sphinx-argparse-0.3.1.tar.gz
+URL = https://files.pythonhosted.org/packages/66/f7/eb647af84adeaa2536acfe281cf37e20b4b5c5e3b34db3705e3f37b1a81f/sphinx-argparse-0.3.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
