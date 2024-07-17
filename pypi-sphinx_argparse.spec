@@ -6,10 +6,10 @@
 # autospec commit: b858a2a
 #
 Name     : pypi-sphinx_argparse
-Version  : 0.5.0
-Release  : 16
-URL      : https://files.pythonhosted.org/packages/fa/4a/46087bbb57494b2daef8dc49049464fba6b881c9e45305f6eb9737b6939a/sphinx_argparse-0.5.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/fa/4a/46087bbb57494b2daef8dc49049464fba6b881c9e45305f6eb9737b6939a/sphinx_argparse-0.5.0.tar.gz
+Version  : 0.5.2
+Release  : 17
+URL      : https://files.pythonhosted.org/packages/3b/21/a8c64e6633652111e6e4f89703182a53cbc3ed67233523e47472101358b6/sphinx_argparse-0.5.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/3b/21/a8c64e6633652111e6e4f89703182a53cbc3ed67233523e47472101358b6/sphinx_argparse-0.5.2.tar.gz
 Summary  : A sphinx extension that automatically documents argparse commands and options
 Group    : Development/Tools
 License  : MIT
@@ -52,6 +52,7 @@ Summary: python3 components for the pypi-sphinx_argparse package.
 Group: Default
 Requires: python3-core
 Provides: pypi(sphinx_argparse)
+Requires: pypi(docutils)
 Requires: pypi(sphinx)
 
 %description python3
@@ -59,10 +60,10 @@ python3 components for the pypi-sphinx_argparse package.
 
 
 %prep
-%setup -q -n sphinx_argparse-0.5.0
-cd %{_builddir}/sphinx_argparse-0.5.0
+%setup -q -n sphinx_argparse-0.5.2
+cd %{_builddir}/sphinx_argparse-0.5.2
 pushd ..
-cp -a sphinx_argparse-0.5.0 buildavx2
+cp -a sphinx_argparse-0.5.2 buildavx2
 popd
 
 %build
@@ -70,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1721145790
+export SOURCE_DATE_EPOCH=1721232523
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
