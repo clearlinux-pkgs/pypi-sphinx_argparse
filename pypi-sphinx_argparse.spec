@@ -7,7 +7,7 @@
 #
 Name     : pypi-sphinx_argparse
 Version  : 0.5.2
-Release  : 17
+Release  : 18
 URL      : https://files.pythonhosted.org/packages/3b/21/a8c64e6633652111e6e4f89703182a53cbc3ed67233523e47472101358b6/sphinx_argparse-0.5.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/3b/21/a8c64e6633652111e6e4f89703182a53cbc3ed67233523e47472101358b6/sphinx_argparse-0.5.2.tar.gz
 Summary  : A sphinx extension that automatically documents argparse commands and options
